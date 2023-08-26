@@ -26,7 +26,7 @@ public class JwtExampleApplication {
     public static void main(String[] args) {
         SpringApplication.run(JwtExampleApplication.class, args);
     }
-    //CommandLineRunner  will execute when application started we are Inserting roles
+    //CommandLineRunner will execute when application started we are Inserting roles
     @Bean
 	CommandLineRunner init(RoleRepository roleRepository) {
 		return args -> {
