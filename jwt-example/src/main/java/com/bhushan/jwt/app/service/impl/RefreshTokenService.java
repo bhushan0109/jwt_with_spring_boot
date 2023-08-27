@@ -68,7 +68,6 @@ public class RefreshTokenService implements IRefreshTokenService {
     }
 
 	public Optional<RefreshToken> findByTokenAndIpAddress(String requestRefreshToken, String ip) {
-		// TODO Auto-generated method stub
 		return refreshTokenRepository.findByTokenAndIpAddress(requestRefreshToken,ip);
 	}
 }
